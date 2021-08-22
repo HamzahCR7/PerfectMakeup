@@ -11,8 +11,8 @@ body{
 
 }
 .navbar{
-	background: transparent;
-	background-color: #FCA4A6; 
+	/* background: transparent; */
+	/* background-color: #FCA4A6;  */
 	
 }
 .nav-link{
@@ -682,26 +682,47 @@ font-size: 22px
 .ourteam{
 	height: 1500px;
 }
+.side-text{
+    margin-top:350px;
+    font-size: 12px;
+}
 .element{
 	margin-left: 100px;
-}
+    width:200px;
+    border-radius: 50px;
+    font-size:10px}
 
 }
 @media(min-width: 300px) and (max-width: 479px)
 {
-
+    .side-text{
+        margin-top:200px;
+        font-size: 12px;
+    }
 }
 @media(min-width: 480px) and (max-width: 574px)
 {
+    .side-text{
+        margin-top:100px;
+        font-size: 12px;
+    }
 	
 }
 @media(min-width: 575px) and (max-width:767px )
 {
-	
+	.side-text{
+        margin-top:50px;
+        font-size: 12px;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 991px)
 {
+
+    .side-text{
+        margin-top:20px;
+        font-size: 12px;
+    }
 	.headerset h2{
 		font-size: 32px;
 	}
@@ -716,9 +737,13 @@ font-size: 22px
 {
 	.side-text{
 		margin-left:-500px;
+        margin-top: 0px;
+        font-size: 15px;
 	}
 .element{
 	margin-left: 40px;
+    width:300px;
+    font-size:15px
 }
 
 .ourservice{
